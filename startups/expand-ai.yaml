@@ -1,0 +1,57 @@
+name: Expand
+tagline: Reading glasses for your AI agent — fetch and crawl with SOTA extraction
+description: >-
+  Expand lets AI agents fetch web pages and crawl with state-of-the-art
+  extraction. Its model Iris looks at the rendered page and returns it whole
+  as markdown, with every line linked back to its exact spot on the page.
+  Other tools read the HTML and guess; Expand returns clean, structured
+  content with provenance. The platform provides an MCP server, a CLI
+  (expandai), and an API for programmatic use.
+problem: >-
+  AI agents need to read the web, but raw HTML is noisy and hard to parse
+  reliably. Existing fetch tools return unstructured content that agents
+  struggle to interpret, leading to hallucinated or incomplete readings.
+audience:
+  - AI agent developers
+  - Teams building autonomous agents
+  - Researchers needing reliable web content extraction
+website: https://expand.ai/
+access:
+  - kind: signup
+    url: https://expand.ai/
+categories:
+  - ai-and-agents
+  - developer-tools
+stage: live
+pricing:
+  model: freemium
+platforms:
+  - web
+  - cli
+people:
+  - name: Tim Suchanek
+    role: Founder
+links:
+  - kind: docs
+    url: https://expand.ai/docs/quickstart
+  - kind: api
+    url: https://expand.ai/api-reference
+logo:
+  path: logo.png
+  alt: Expand icon
+sources:
+  - url: https://expand.ai/
+    title: Expand official website
+  - url: https://expand.ai/icon.png
+    title: Original Expand website icon
+  - url: https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent
+    title: Expand public launch on Y Combinator
+launch:
+  title: Expand launches Expand Fetch — reading glasses for AI agents
+  summary: >-
+    The founders publicly introduced Expand Fetch, a web-fetching and
+    extraction layer for AI agents. Their Iris model reads rendered pages
+    and returns clean markdown with per-line provenance, giving agents
+    reliable access to web content without HTML-parsing guesswork.
+  date: 2026-10-12
+  url: https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent
