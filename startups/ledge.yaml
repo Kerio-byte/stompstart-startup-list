@@ -1,0 +1,46 @@
+name: Ledge
+tagline: Runnable Markdown notes for developers and DevOps
+description: >-
+  Ledge is a Markdown editor that lets developers and DevOps engineers run
+  code blocks in place and see the output stream in directly beneath each
+  block. It is free and open source, available for Mac, Linux, Windows,
+  iPhone, and Android.
+problem: Developers switch between Markdown notes and a terminal to run code and see results.
+audience:
+  - Developers
+  - DevOps engineers
+website: https://ledge.sh/
+access:
+  - kind: download
+    url: https://ledge.sh/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+platforms:
+  - macos
+  - linux
+  - windows
+  - ios
+  - android
+logo:
+  path: logo.png
+  alt: The Ledge logo, a lime-green L mark on a dark background
+sources:
+  - url: https://ledge.sh/
+    title: Ledge official website
+  - url: "https://news.ycombinator.com/item?id=49902382"
+    title: "Show HN Ledge.sh - Runnable Markdown Notes (Hacker News 29.09.2026)"
+launch:
+  title: Ledge opens to the public
+  summary: Public launch on Hacker News with a Show HN post introducing runnable Markdown notes.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: announced
+  source:
+    url: "https://news.ycombinator.com/item?id=49902382"
+    title: "Show HN Ledge.sh - Runnable Markdown Notes"
+    locator: Post timestamp 29.09.2026, introducing the product for the first time
